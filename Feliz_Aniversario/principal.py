@@ -48,7 +48,6 @@ def main(page: ft.Page):
         src= fotos[fotos_index],
         height= 600,
         border_radius= 20,
-
     )
 
     def proxima_foto(e):
@@ -100,8 +99,7 @@ def main(page: ft.Page):
             botao_voltar,
             botao_proximo
         ], 
-        alignment= 'center',
-        spacing= 50
+        alignment= 'center', spacing= 50
     )
 
     caixa_principal = ft.Column([
@@ -118,17 +116,13 @@ def main(page: ft.Page):
             background,
             caixa_principal
         ]),
-        width= '100%',
-        height= '100%',
-        alignment= ft.alignment.center,
-        visible= False
+        width= '100%', height= '100%', alignment= ft.alignment.center, visible= False
     )
 
     estilo_botao_presente = ft.ButtonStyle(
         padding= 20,
         bgcolor= 'white',
         color= 'purple',
-
     )
     botao_abrir_presente = ft.ElevatedButton(
         text= 'Abrir Presente',
