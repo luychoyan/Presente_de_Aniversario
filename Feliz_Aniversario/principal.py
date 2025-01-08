@@ -20,12 +20,13 @@ def main(page: ft.Page):
         width= '100%',
         height= '100%',
     )
+    
 
     titulo = ft.Text('Feliz Animersário Meu Amor!', size= 35, color= 'white', weight= 'bold')
 
     # Aqui fica a lista de fotos
     fotos = [
-        'assets/foto2.jpg', 'assets/foto3.jpg', 'assets/foto4.jpg', 'assets/foto7.jpg', 'assets/foto8.jpg', 'assets/foto10.jpg', 'assets/foto11.jpg', 'assets/foto12.jpg', 'assets/foto13.jpg', 'assets/foto14.jpg', 'assets/foto15.jpg', 'assets/foto17.jpg', 'assets/foto18.jpg', 'assets/foto19.jpg', 'assets/foto20.jpg', 'assets/foto21.jpg', 'assets/foto22.jpg'
+        'Feliz_Aniversario/assets/foto2.jpg', 'Feliz_Aniversario/assets/foto3.jpg', 'Feliz_Aniversario/assets/foto4.jpg', 'Feliz_Aniversario/assets/foto7.jpg', 'Feliz_Aniversario/assets/foto8.jpg', 'Feliz_Aniversario/assets/foto10.jpg', 'Feliz_Aniversario/assets/foto11.jpg', 'Feliz_Aniversario/assets/foto12.jpg', 'Feliz_Aniversario/assets/foto13.jpg', 'Feliz_Aniversario/assets/foto14.jpg', 'Feliz_Aniversario/assets/foto15.jpg', 'Feliz_Aniversario/assets/foto17.jpg', 'Feliz_Aniversario/assets/foto18.jpg', 'Feliz_Aniversario/assets/foto19.jpg', 'Feliz_Aniversario/assets/foto20.jpg', 'Feliz_Aniversario/assets/foto21.jpg', 'Feliz_Aniversario/assets/foto22.jpg'
     ]
     fotos_index = 0
 
